@@ -1,0 +1,90 @@
+.medical-consultation-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.med-consult-form .form-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+}
+
+.med-consult-form .form-section h3 {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+    color: #1f2937;
+}
+
+.med-consult-form .form-row {
+    margin-bottom: 1rem;
+}
+
+.med-consult-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #374151;
+}
+
+.med-consult-form input[type="text"],
+.med-consult-form input[type="email"],
+.med-consult-form input[type="number"],
+.med-consult-form select,
+.med-consult-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.med-consult-form textarea {
+    min-height: 100px;
+}
+
+.audio-recorder {
+    padding: 1rem;
+    background: #f3f4f6;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.audio-recorder button {
+    padding: 0.5rem 1rem;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.audio-recorder button:hover {
+    background: #1d4ed8;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background: #1d4ed8;
+}
+
+#audioPreview {
+    width: 100%;
+    margin-top: 1rem;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "medical-consultation",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint": "wp-scripts lint-js"
+  },
+  "dependencies": {
+    "@wordpress/element": "^5.0.0",
+    "@wordpress/scripts": "^26.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.344.0",
+    "openai": "^4.28.0",
+    "react-media-recorder": "^1.6.6"
+  }
+}
